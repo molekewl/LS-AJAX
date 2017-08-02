@@ -9,6 +9,7 @@ class FriendsInput extends Component {
       age: '',
       email: ''
     }
+  
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChangeName = this.handleChangeName.bind(this);
     this.handleChangeAge = this.handleChangeAge.bind(this);

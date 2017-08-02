@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import FriendsList from './components/FriendsList';
 import FriendsInput from './components/FriendsInput';
+import DeleteFriend from './components/DeleteFriend';
 import { connect } from 'react-redux';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         </div>
         <div className="App-intro">
           <FriendsInput dispatch={this.props.dispatch}/>
+          <DeleteFriend />
           <FriendsList />
         </div>
       </div>
