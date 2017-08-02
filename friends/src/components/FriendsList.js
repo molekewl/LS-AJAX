@@ -31,6 +31,7 @@ class FriendsList extends Component {
   }
 }
 
+// Stores state passes in to the component as props
 const mapStateToProps = (state) => {
   return {
     // state from reducers property name

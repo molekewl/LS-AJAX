@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import FriendsList from './components/FriendsList';
 import FriendsInput from './components/FriendsInput';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 class App extends Component {
   render() {

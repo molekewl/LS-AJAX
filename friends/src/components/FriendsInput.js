@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { addFriends } from '../actions'
+import { addFriends } from '../actions';
 
 class FriendsInput extends Component {
   constructor(props) {
